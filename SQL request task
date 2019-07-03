@@ -1,0 +1,6 @@
+SELECT Server.ProductName, Category.CatergoryName
+
+FROM Server
+
+FULL OUTER JOIN Category ON Server.ProductName = Category.ProductName
+ORDER BY Server.ProductName;
